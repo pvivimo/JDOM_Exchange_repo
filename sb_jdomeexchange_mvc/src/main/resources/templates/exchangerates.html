@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	</head>
+	<body>
+		<p>Exchange Rates</p>
+		<table>
+			<tr>
+				<th>Currency</th>
+				<th>Value</th>
+				<th>Unit</th>
+			</tr>
+			<tr th:each="exchangeRate : ${exchangeratesdto.exchangeRates}">
+				<td th:text="${exchangeRate.curr}"></td>
+				<td th:text="${exchangeRate.value}"></td>
+				<td th:text="${exchangeRate.unit}"></td>
+			</tr>
+					
+		</table>
+	
+	
+	</body>
+</html>
