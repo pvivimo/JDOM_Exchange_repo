@@ -24,7 +24,7 @@ public class XMLParser {
 	
 		//1. Dokumentum előállítása fájlból:
 		SAXBuilder sb = new SAXBuilder();
-	    Document document = sb.build(new File("C:\\Users\\pvivi\\OneDrive\\Asztali gép\\Programozz te is\\Halado_Tanfolyam\\4_XML\\1\\MNB_ExchangeRates.xml"));
+	    Document document = sb.build(new File("C:\\Users\\pvivi\\OneDrive\\Asztali gép\\Programozz te is\\Halado_Tanfolyam\\4_XML\\1\\MNB_ExchangeRates_uj.xml"));
 	
 	    // 2. Gyökérelem megszerzése
 	    Element rootElement = document.getRootElement();
